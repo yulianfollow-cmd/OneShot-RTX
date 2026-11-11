@@ -1,25 +1,43 @@
-MIT License
+OneShot RTX - Personal Use License
 
-Copyright (c) 2026 OneShot RTX contributors
+Copyright (c) 2026 yulianfollow-cmd. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This license covers everything in this repository that was made for OneShot RTX:
+the code, the installer, the improved Russian lines, the documentation and the
+screenshots' editing ("the Mod").
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+YOU MAY
+  - download the Mod and install it on your own legally obtained copy of OneShot,
+    and use it for personal, non-commercial play;
+  - record and share videos, streams and screenshots of the game running with the
+    Mod, as long as you credit "OneShot RTX by yulianfollow-cmd" and link to
+    https://github.com/yulianfollow-cmd/OneShot-RTX ;
+  - read the source code and change it for your own private use on your own PC;
+  - share a link to this repository.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+YOU MAY NOT, without written permission from the author
+  - sell, rent, license or otherwise use the Mod or any part of it commercially,
+    including in paid bundles, behind paywalls, or as part of a paid service;
+  - re-upload, mirror or redistribute the Mod, in original or modified form,
+    on any website, store, mod portal or file host (link to this repository instead);
+  - publish modified versions, ports or derivative works of the Mod, or copy
+    substantial parts of its code into other projects;
+  - remove or change this notice or any credits, or present the Mod or any part
+    of it as your own work.
 
-This license covers the mod's own code and text only. OneShot, its art,
-music, scripts and official translations belong to their creators and are not
-included in this repository.
+GitHub's Terms of Service let users view and fork public repositories on
+github.com. A fork may only be used to propose changes back to this repository;
+it may not be used to redistribute the Mod.
+
+For permissions beyond this license, open an issue on the repository and ask.
+
+NO WARRANTY
+The Mod is provided "as is", without warranty of any kind. The author is not
+liable for any damage, data loss or other problems arising from its use.
+The installer makes a backup of the file it changes, and uninstall.bat restores
+the game; keep your own backups of your saves if they matter to you.
+
+THIRD-PARTY CONTENT
+OneShot, its art, music, scripts and official translations belong to their
+creators (Future Cat LLC and contributors) and are not included in this
+repository. This Mod is a fan project and is not affiliated with them.

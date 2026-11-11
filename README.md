@@ -51,7 +51,8 @@ It never touches the game's UI. Menus, the inventory, computer screens, messages
 
 ## Install (about 1 minute)
 
-1. **Download** this repo: green **Code** button → **Download ZIP**, then extract it anywhere (Desktop is fine).
+1. **Download** the latest ZIP from [**Releases**](https://github.com/yulianfollow-cmd/OneShot-RTX/releases/latest)
+   and extract it anywhere (Desktop is fine).
 2. **Close OneShot** if it's running.
 3. **Double-click `install.bat`.**
    - It looks for OneShot by itself (Steam libraries included).
@@ -160,10 +161,12 @@ the game's own images for dark, see-through pixels.
 
 ## Credits
 
+- **OneShot RTX** by yulianfollow-cmd, co-written with **Claude** (Anthropic).
 - **OneShot** by Future Cat LLC (Eliza Velasquez, Michael Shirt, Nightmargin and team). This mod is fan-made and not affiliated
   with them. No game files are included here, so you need your own copy of OneShot.
-- Mod made with the help of **Claude** (Anthropic), who co-wrote the code.
 
 ## License
 
-The mod code is MIT licensed (see `LICENSE`). OneShot itself and its art belong to its creators.
+**Personal use only, all rights reserved.** You can download it, play with it, and make videos or streams
+(please credit and link this repo). You can't sell it, re-upload it, publish modified versions,
+or pass it off as your own. Full terms in [`LICENSE`](LICENSE). Want to do something it doesn't allow? Open an issue and ask.
