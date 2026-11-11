@@ -51,15 +51,18 @@ It never touches the game's UI. Menus, the inventory, computer screens, messages
 
 ## Install (about 1 minute)
 
-1. **Download** the latest ZIP from [**Releases**](https://github.com/yulianfollow-cmd/OneShot-RTX/releases/latest)
-   and extract it anywhere (Desktop is fine).
-2. **Close OneShot** if it's running.
-3. **Double-click `install.bat`.**
+1. **Download** the latest ZIP from [**Releases**](https://github.com/yulianfollow-cmd/OneShot-RTX/releases/latest).
+2. **Unblock it first** (important on Windows 11): right-click the ZIP → **Properties** → tick **Unblock** at the
+   bottom → **OK**. Windows marks downloaded scripts as untrusted, and with Smart App Control on it will refuse
+   to run `install.bat` otherwise. No Unblock box? Then your PC doesn't need it, just continue.
+3. **Extract** the ZIP anywhere (Desktop is fine).
+4. **Close OneShot** if it's running.
+5. **Double-click `install.bat`.**
    - It looks for OneShot by itself (Steam libraries included).
    - If it can't find it, a window pops up: pick the folder that contains `oneshot.exe`.
      On Steam that's usually `C:\Program Files (x86)\Steam\steamapps\common\OneShot`.
-4. Wait for **"Done!"**, press a key to close the window.
-5. Start OneShot like you always do. That's it.
+6. Wait for **"Done!"**, press a key to close the window.
+7. Start OneShot like you always do. That's it.
 
 If Windows shows a blue "Windows protected your PC" box for `install.bat`, click **More info → Run anyway**.
 That happens with any downloaded script.
@@ -139,6 +142,10 @@ the mod files. Your saves and settings stay.
 
 ## Troubleshooting
 
+- **`install.bat` does nothing / "An Application Control policy has blocked this file".** That's Smart App Control
+  blocking scripts downloaded from the internet. Delete the extracted folder, right-click the ZIP → **Properties** →
+  tick **Unblock** → **OK**, extract again and run `install.bat`. Already extracted? Open PowerShell and run
+  `Get-ChildItem "<the extracted folder>" -Recurse | Unblock-File`, then try again.
 - **No RTX in game.** Check you installed into the copy you actually play. If you have two OneShot folders, run the
   installer for each one. Then look at `OneShot\Mods\RayTrace2D.log`. The first line of each session says
   `RayTrace2D 1.0 loaded`.
